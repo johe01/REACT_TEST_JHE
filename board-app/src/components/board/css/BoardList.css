@@ -1,0 +1,31 @@
+.table th,
+.table td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+.table th {
+    background-color: black;
+    color: white;
+}
+.table tr:hover {
+    background-color: beige;
+}
+
+.talbe th:nth-child(1),
+.talbe td:nth-child(1) {
+    width: 10%;
+}
+.talbe th:nth-child(2),
+.talbe td:nth-child(2) {
+    width: 50%;
+}
+.talbe th:nth-child(3),
+.talbe td:nth-child(3) {
+    width: 15%;
+}
+.talbe th:nth-child(4),
+.talbe td:nth-child(4) {
+    width: 25%;
+}
+
